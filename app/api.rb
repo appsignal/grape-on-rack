@@ -1,5 +1,9 @@
+require 'appsignal/integrations/grape'
+
 module Acme
   class API < Grape::API
+    use Appsignal::Grape::Middleware
+
     prefix 'api'
     format :json
     mount ::Acme::Ping

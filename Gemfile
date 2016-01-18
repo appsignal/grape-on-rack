@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
 
 gem 'rack', '~> 1.6.0'
-gem 'grape', '~> 0.13.0'
+gem 'grape', '~> 0.14.0'
 gem 'grape-entity', '~> 0.4.8'
 gem 'json', '~> 1.8.3'
-gem 'newrelic_rpm', '~> 3.5.4.34'
+gem 'appsignal', :git => 'https://github.com/appsignal/appsignal', :branch => 'grape'
 gem 'rack-cors', '~> 0.4.0'
 gem 'grape-swagger', '~> 0.10.1'
 gem 'mime-types'

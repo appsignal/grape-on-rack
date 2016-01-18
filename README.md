@@ -31,7 +31,6 @@ Run
 $ bundle install
 $ rackup
 
-Loading NewRelic in developer mode ...
 [2013-06-20 08:57:58] INFO  WEBrick 1.3.1
 [2013-06-20 08:57:58] INFO  ruby 1.9.3 (2013-02-06) [x86_64-darwin11.4.2]
 [2013-06-20 08:57:58] INFO  WEBrick::HTTPServer#start: pid=247 port=9292
@@ -81,8 +80,3 @@ Explore the API
 ---------------
 
 Explore the API using [Swagger UI](http://petstore.swagger.io). Run the application and point the explorer to `http://localhost:9292/api/swagger_doc` or `http://grape-on-rack.herokuapp.com/api/swagger_doc`.
-
-New Relic
----------
-
-The application is setup with NewRelic w/ Developer Mode. Navigate to http://localhost:9292/newrelic after making some API calls.
